@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FoodOrderingSystem/FoodOrderingSystem.iml" filepath="$PROJECT_DIR$/FoodOrderingSystem/FoodOrderingSystem.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LA6_ABREGANA.iml" filepath="$PROJECT_DIR$/LA6_ABREGANA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeapYearChecker/LeapYearChecker.iml" filepath="$PROJECT_DIR$/LeapYearChecker/LeapYearChecker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleCalculator/SimpleCalculator.iml" filepath="$PROJECT_DIR$/SimpleCalculator/SimpleCalculator.iml" />
+    </modules>
+  </component>
+</project>
