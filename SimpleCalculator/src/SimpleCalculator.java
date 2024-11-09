@@ -1,14 +1,10 @@
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class SimpleCalculator extends JFrame{
     private JPanel jpanel;
-    private JTextField textField1;
-    private JTextField textField2;
-    private JComboBox comboBox1;
-    private JButton button1;
-    private JButton computeResultButton;
     private JTextField tfNumber1;
     private JComboBox cbOperations;
     private JTextField tfNumber2;
@@ -58,11 +54,14 @@ public class SimpleCalculator extends JFrame{
 
 
     public static void main(String[] args) {
+
         SimpleCalculator app = new SimpleCalculator();
         app.setTitle("Simple Calculator");
         app.setContentPane(app.jpanel);
         app.setSize(600,300);
-        app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         app.setVisible(true);
+        app.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        app.getContentPane().setBackground(new Color(0xCCCCCC));
+
     }
 }
